@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+form {
+    background: #282c34;
+    padding: 50px;
+    color: white;
+}
+
+.result {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    
+    background: white;
+    
+}
+
+.clicked {
+    background-color: rgb(160, 121, 121);
+    text-decoration: line-through;
+}
+
+
+#error{
+    color: red;
+}
+
+#resultDiv {
+    background-color: #282c348a;
+    padding: 10px;
+}
